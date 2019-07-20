@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main"
+        tools:context=".MainActivity">
+    <ImageView
+            android:layout_width="70"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map0" android:layout_height="60.6dp"
+            android:rotation="0" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar2" android:contentDescription="map0"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map1" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintEnd_toEndOf="@+id/map0" android:layout_marginEnd="52dp" android:layout_marginTop="30dp"
+            app:layout_constraintTop_toTopOf="@+id/map0"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map2" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toTopOf="@+id/map0" android:layout_marginStart="52dp"
+            app:layout_constraintStart_toStartOf="@+id/map0"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map3" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginEnd="34dp" app:layout_constraintEnd_toStartOf="@+id/map4"
+            app:layout_constraintTop_toTopOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map4" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map0" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map5" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintStart_toEndOf="@+id/map4" android:layout_marginStart="34dp"
+            app:layout_constraintTop_toTopOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map6" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="@+id/map4"
+            android:layout_marginEnd="52dp" app:layout_constraintEnd_toEndOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map7" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toTopOf="@+id/map4" android:layout_marginStart="52dp"
+            app:layout_constraintStart_toStartOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map8" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map3"
+            android:layout_marginEnd="34dp" app:layout_constraintEnd_toStartOf="@+id/map9"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map9" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintTop_toBottomOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map10" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map5" app:layout_constraintStart_toEndOf="@+id/map9"
+            android:layout_marginStart="34dp"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map11" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginEnd="52dp" app:layout_constraintEnd_toEndOf="@+id/map9"
+            android:layout_marginTop="30dp" app:layout_constraintTop_toBottomOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map12" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/map4" android:layout_marginStart="52dp"
+            app:layout_constraintStart_toStartOf="@+id/map9"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map13" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginEnd="34dp"
+            app:layout_constraintEnd_toStartOf="@+id/map18"
+            app:layout_constraintTop_toBottomOf="@+id/map8"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map14" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map9" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map15" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map10" app:layout_constraintStart_toEndOf="@+id/map18"
+            android:layout_marginStart="34dp"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map16" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginEnd="52dp" app:layout_constraintEnd_toEndOf="@+id/map9"
+            app:layout_constraintTop_toBottomOf="@+id/map11"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map17" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map12" android:layout_marginStart="52dp"
+            app:layout_constraintStart_toStartOf="@+id/map9"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map18" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintTop_toBottomOf="@+id/map14"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map19" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginStart="52dp" app:layout_constraintStart_toStartOf="@+id/map5"
+            android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="@+id/map5"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map20" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            android:layout_marginStart="52dp"
+            app:layout_constraintStart_toStartOf="@+id/map10"
+            app:layout_constraintTop_toBottomOf="@+id/map19"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map21" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintStart_toStartOf="@+id/map10"
+            app:layout_constraintTop_toBottomOf="@+id/map20"
+            android:layout_marginStart="52dp"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map22" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map15"
+            app:layout_constraintStart_toStartOf="@+id/map15"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map23" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintStart_toStartOf="@+id/map17"
+            app:layout_constraintTop_toBottomOf="@+id/map17"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map24" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map18"
+            app:layout_constraintStart_toStartOf="@+id/map18"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map25" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintStart_toStartOf="@+id/map16"
+            app:layout_constraintTop_toBottomOf="@+id/map16"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map26" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map13"
+            app:layout_constraintStart_toStartOf="@+id/map13"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map27" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toBottomOf="@+id/map28"
+            app:layout_constraintEnd_toEndOf="@+id/map28"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map28" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintEnd_toEndOf="@+id/map29"
+            app:layout_constraintTop_toBottomOf="@+id/map29"/>
+    <ImageView
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/blank"
+            android:id="@+id/map29" android:layout_height="60.6dp"
+            android:rotation="0"
+            android:contentDescription="map0"
+            app:layout_constraintTop_toTopOf="@+id/map6"
+            android:layout_marginEnd="52dp" app:layout_constraintEnd_toEndOf="@+id/map3"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num0" app:layout_constraintStart_toStartOf="@+id/map0"
+            app:layout_constraintEnd_toEndOf="@+id/map0" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map0" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num1"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map1" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map6" app:layout_constraintStart_toStartOf="@+id/map1"
+            app:layout_constraintEnd_toEndOf="@+id/map1"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num2"
+            app:layout_constraintEnd_toEndOf="@+id/map2"
+            app:layout_constraintTop_toTopOf="@+id/map2" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map7" app:layout_constraintStart_toStartOf="@+id/map2"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num3"
+            app:layout_constraintStart_toStartOf="@+id/map3"
+            app:layout_constraintEnd_toEndOf="@+id/map3" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map8" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map3"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num4"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map4" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map9" app:layout_constraintStart_toStartOf="@+id/map4"
+            app:layout_constraintEnd_toEndOf="@+id/map4"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num5"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map5" app:layout_constraintEnd_toEndOf="@+id/map5"
+            app:layout_constraintStart_toStartOf="@+id/map5" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map10"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num6"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map6" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map11" app:layout_constraintStart_toStartOf="@+id/map6"
+            app:layout_constraintEnd_toEndOf="@+id/map6"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num7"
+            app:layout_constraintTop_toTopOf="@+id/map7" app:layout_constraintBottom_toBottomOf="@+id/map7"
+            app:layout_constraintEnd_toEndOf="@+id/map7" app:layout_constraintStart_toStartOf="@+id/map7"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num8"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map8" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map13" app:layout_constraintStart_toStartOf="@+id/map8"
+            app:layout_constraintEnd_toEndOf="@+id/map8"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num9"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map9" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map14" app:layout_constraintStart_toStartOf="@+id/map9"
+            app:layout_constraintEnd_toEndOf="@+id/map9"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num10"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map10" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map15" app:layout_constraintEnd_toEndOf="@+id/map10"
+            app:layout_constraintStart_toStartOf="@+id/map10"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num11"
+            app:layout_constraintTop_toBottomOf="@+id/map6"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/map16"
+            app:layout_constraintStart_toStartOf="@+id/map11" app:layout_constraintEnd_toEndOf="@+id/map11"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num12"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map12" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map17" app:layout_constraintEnd_toEndOf="@+id/map12"
+            app:layout_constraintStart_toStartOf="@+id/map12"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num13"
+            app:layout_constraintTop_toTopOf="@+id/map13" app:layout_constraintBottom_toBottomOf="@+id/map13"
+            app:layout_constraintStart_toStartOf="@+id/map13" app:layout_constraintEnd_toEndOf="@+id/map13"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num14"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map14" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map18" app:layout_constraintStart_toStartOf="@+id/map14"
+            app:layout_constraintEnd_toEndOf="@+id/map14"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num15"
+            app:layout_constraintTop_toTopOf="@+id/map15" app:layout_constraintBottom_toBottomOf="@+id/map15"
+            app:layout_constraintEnd_toEndOf="@+id/map15" app:layout_constraintStart_toStartOf="@+id/map15"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num16"
+            app:layout_constraintTop_toTopOf="@+id/map16" app:layout_constraintBottom_toBottomOf="@+id/map16"
+            app:layout_constraintStart_toStartOf="@+id/map16" app:layout_constraintEnd_toEndOf="@+id/map16"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num17"
+            app:layout_constraintTop_toTopOf="@+id/map17" app:layout_constraintBottom_toBottomOf="@+id/map17"
+            app:layout_constraintEnd_toEndOf="@+id/map17" app:layout_constraintStart_toStartOf="@+id/map17"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num18"
+            app:layout_constraintTop_toTopOf="@+id/map18" app:layout_constraintBottom_toBottomOf="@+id/map18"
+            app:layout_constraintEnd_toEndOf="@+id/map18" app:layout_constraintStart_toStartOf="@+id/map18"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num19"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map19" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map20" app:layout_constraintEnd_toEndOf="@+id/map19"
+            app:layout_constraintStart_toStartOf="@+id/map19"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num20"
+            app:layout_constraintStart_toStartOf="@+id/map20"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/map20" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/map21" app:layout_constraintEnd_toEndOf="@+id/map20"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num21"
+            app:layout_constraintTop_toTopOf="@+id/map21" app:layout_constraintStart_toStartOf="@+id/map21"
+            app:layout_constraintEnd_toEndOf="@+id/map21" app:layout_constraintBottom_toBottomOf="@+id/map21"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num22"
+            app:layout_constraintTop_toTopOf="@+id/map22" app:layout_constraintBottom_toBottomOf="@+id/map22"
+            app:layout_constraintStart_toStartOf="@+id/map22" app:layout_constraintEnd_toEndOf="@+id/map22"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num23"
+            app:layout_constraintBottom_toBottomOf="@+id/map23"
+            app:layout_constraintTop_toTopOf="@+id/map23" app:layout_constraintStart_toStartOf="@+id/map23"
+            app:layout_constraintEnd_toEndOf="@+id/map23"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num24"
+            app:layout_constraintTop_toTopOf="@+id/map24" app:layout_constraintBottom_toBottomOf="@+id/map24"
+            app:layout_constraintStart_toStartOf="@+id/map24" app:layout_constraintEnd_toEndOf="@+id/map24"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num25"
+            app:layout_constraintTop_toTopOf="@+id/map25" app:layout_constraintBottom_toBottomOf="@+id/map25"
+            app:layout_constraintStart_toStartOf="@+id/map25" app:layout_constraintEnd_toEndOf="@+id/map25"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num26"
+            app:layout_constraintTop_toTopOf="@+id/map26" app:layout_constraintBottom_toBottomOf="@+id/map26"
+            app:layout_constraintStart_toStartOf="@+id/map26" app:layout_constraintEnd_toEndOf="@+id/map26"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num27"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/map28" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/map27" app:layout_constraintStart_toStartOf="@+id/map27"
+            app:layout_constraintEnd_toEndOf="@+id/map27"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num28"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/map29"
+            app:layout_constraintStart_toStartOf="@+id/map28" app:layout_constraintEnd_toEndOf="@+id/map28"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/map28"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" app:srcCompat="@drawable/blank"
+            android:id="@+id/num29"
+            app:layout_constraintTop_toTopOf="@+id/map29" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/map29" app:layout_constraintStart_toStartOf="@+id/map29"
+            app:layout_constraintEnd_toEndOf="@+id/map29"/>
+    <android.support.v7.widget.Toolbar
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize"
+            android:id="@+id/toolbar2" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="parent"/>
+    <Button
+            android:text="Randomize"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:id="@+id/button"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:background="@color/colorAccent"/>
+    <Switch
+            android:text="5-6 Player Expansion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expansion"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/button" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+</android.support.constraint.ConstraintLayout>
